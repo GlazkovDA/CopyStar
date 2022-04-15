@@ -1,0 +1,204 @@
+*,
+*:before *:after {
+    box-sizing: border-box;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Snell Roundhand,' cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.041);
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+/* header */
+
+.header {
+
+    padding: 20px;
+    background-color: rgb(255, 136, 136);
+    box-shadow: 5px 1px 12px 2px rgba(39, 39, 39, 0.582);
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(255, 255, 255);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.nav {
+    font-size: 25px;
+
+}
+
+.nav ul li {
+    list-style-type: none;
+}
+
+.nav ul li + li {
+    margin-left: 15px;
+}
+
+.nav .nav-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav .nav-link:hover {
+    color: rgb(219, 217, 217);
+
+}
+
+/* main */
+
+.main-content {
+    margin: 25px 40px 15px 40px;
+}
+
+.main-content .title {
+    font-size: 30px;
+}
+
+
+/* form */
+
+.form-container {
+    border: 1.5px solid rgb(134, 134, 134);
+    border-radius: 30PX;
+    padding: 100px;
+    background-color: rgb(245, 244, 244);
+
+}
+
+
+form .input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+form .input-border {
+    border-bottom: 1px solid black;
+
+}
+
+form .input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+form .input-text {
+    padding-left: 3px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+form .checkbox {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+form .checkbox-text {
+    padding-left: 5px;
+}
+
+form .btn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 -3px rgb(0, 0, 0) inset;
+    transition: 0.2s;
+}
+
+form .btn:hover {
+    background: rgb(0, 0, 0);
+}
+form .btn:active {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 3px rgb(0, 0, 0) inset;
+  }
+
+/* errors */
+
+.error-input {
+
+    border-bottom: 2px solid rgb(255, 0, 0);
+
+}
+
+
+.error-msg {
+    margin: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+/* footer */
+.footer {
+    box-shadow: 5px 1px 12px 2px rgba(39, 39, 39, 0.521);
+    margin-top: auto;
+    padding: 20px;
+    background-color: rgb(255, 136, 136);
+}
+
+.footer .text {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.vhod {
+    font-size: 20px;
+    align-items: center;
+}
